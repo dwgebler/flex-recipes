@@ -8,7 +8,7 @@
     "is_contrib": true,
     "_links": {
         "repository": "github.com/dwgebler/encrypted-fields-bundle-flex",
-        "origin_template": "{package}:{version}@github.com/dwgebler/encrypted-fields-bundle-flex:main",
+        "origin_template": "{package}:{version}@github.com/dwgebler/encrypted-fields-bundle-flex:master",
         "recipe_template": "https://api.github.com/repos/dwgebler/encrypted-fields-bundle-flex/{package_dotted}.{version}.json"
     }
 }
