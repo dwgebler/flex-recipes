@@ -1,6 +1,7 @@
 {
     "recipes": {
         "dwgebler/encrypted-fields-bundle": [
+            "1.0",
             "1.0.0"
         ]
     },
