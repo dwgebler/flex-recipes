@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "dwgebler/encrypted-fields-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Gebler\\EncryptedFieldsBundle\\EncryptedFieldsBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/packages/acme_private.yaml": {
+                    "contents": [
+                        "encrypted_fields:",
+                        "    master_key: '%env(trim:file:ENCRYPTED_FIELDS_KEY)%'",
+                        "    cipher: aes-256-gcm",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "882d48e7c8e3d65529ff706d6754c76ddc5ac70d"
+        }
+    }
+}
