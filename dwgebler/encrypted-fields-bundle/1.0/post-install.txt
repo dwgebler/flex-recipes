@@ -1,2 +1,0 @@
-Bundle has been installed successfully.
-You may begin encrypting fields.

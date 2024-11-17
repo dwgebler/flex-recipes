@@ -1,2 +1,0 @@
-encrypted_fields:
-  master_key: '%env(trim:file:ENCRYPTED_FIELDS_KEY)%'
