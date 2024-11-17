@@ -8,8 +8,8 @@
     "branch": "master",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/dwgebler/encrypted-fields-bundle-flex",
-        "origin_template": "{package}:{version}@github.com/dwgebler/encrypted-fields-bundle-flex:master",
-        "recipe_template": "https://api.github.com/repos/dwgebler/encrypted-fields-bundle-flex/contents/{package_dotted}.{version}.json"
+        "repository": "github.com/dwgebler/flex-recipes",
+        "origin_template": "{package}:{version}@github.com/dwgebler/flex-recipes:master",
+        "recipe_template": "https://api.github.com/repos/dwgebler/flex-recipes/contents/{package_dotted}.{version}.json"
     }
 }
