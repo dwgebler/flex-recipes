@@ -12,7 +12,7 @@
                 }
             },
             "files": {
-                "config/packages/acme_private.yaml": {
+                "config/packages/gebler_encrypted_fields.yaml": {
                     "contents": [
                         "encrypted_fields:",
                         "    master_key: '%env(trim:file:ENCRYPTED_FIELDS_KEY)%'",
